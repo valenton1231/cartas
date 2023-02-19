@@ -1,0 +1,56 @@
+.ola {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.carta {
+    margin: 5px;
+
+}
+
+@media (max-width: 320px) {
+    .ola {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        justify-content: center;
+    }
+}
+
+
+.carta-1 {
+    background-color: red;
+}
+
+.carta-2 {
+    background-color: yellow;
+}
+
+.carta-3 {
+    background-color: bisque;
+}
+
+.carta-4 {
+    background-color: blueviolet;
+}
+
+.carta-5 {
+    background-color: aliceblue;
+}
+
+.carta-6 {
+    background-color: chocolate;
+}
+
+.carta-7 {
+    background-color: cornflowerblue;
+}
+
+.carta-8 {
+    background-color: darkorange;
+}
+
+.carta-9 {
+    background-color: hotpink;
+}
